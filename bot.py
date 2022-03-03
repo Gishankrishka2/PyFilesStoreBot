@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/+G3Cfhfa1aW0zODI9"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Gishankrishk")
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Gishankrishka1_cloud")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
