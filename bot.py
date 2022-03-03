@@ -338,7 +338,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                                             url="https://github.com/Gishankrishka2")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -402,7 +402,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Owner](https://t.me/gishankrishka1).",
+                    text="Update Channel >> [Click Here](https://t.me/GishanKrishka1_Bots).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
