@@ -1,3 +1,7 @@
+<h1 align="center">
+<b> File Store Bot 🇱🇰 </b>
+</h1>
+
 ![image](https://user-images.githubusercontent.com/96438111/156600055-0a9be065-df16-4c87-a953-062bf29346d9.png)
 
 
