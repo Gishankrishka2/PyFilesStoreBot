@@ -30,7 +30,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Owner:** @Gishankrishka
+🧑🏻‍💻 **Owner:** @Gishankrishka1
 
 📢 **Updates Channel:** [Join](https://t.me/GishanKrishka1_Bots)
 """
