@@ -73,12 +73,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("🌷 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🌷", url="https://t.me/SLBotOfficial"),
+                        InlineKeyboardButton("🌷 ʙᴏᴛᴢ ᴄʜᴀɴɴᴇʟ 🌷", url="https://t.me/gishankrishka1_cloud")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ʙᴏᴛ ❣️", callback_data="aboutbot"),
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ᴅᴇᴠ ❣️", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/JoinOT)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/SLBotOfficial)",
                                      disable_web_page_preview=True)
             return
 
@@ -130,8 +130,8 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option from below:**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("🌺 sᴀᴠᴇ ɪɴ ʙᴀᴛᴄʜ 🌺", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("🌺 ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ 🌺", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
@@ -318,12 +318,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
+                        InlineKeyboardButton("🌻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇs ᴏғ ʙᴏᴛ 🌻",
                                              url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("🌻 ɢᴏ ʜᴏᴍᴇ 🌻", callback_data="gotohome"),
+                        InlineKeyboardButton("🌻 ᴀʙᴏᴜᴛ ᴅᴇᴠ 🌻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -337,12 +337,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("🌻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇs ᴏғ ʙᴏᴛ 🌻",
+                                             url="https://github.com/gishankrishka2")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("🌻 ᴀʙᴏᴜᴛ ʙᴏᴛ 🌻", callback_data="aboutbot"),
+                        InlineKeyboardButton("🌻 ɢᴏ ʜᴏᴍᴇ 🌻", callback_data="gotohome")
                     ]
                 ]
             )
@@ -356,12 +356,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("🌷 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🌷", url="https://t.me/SLBotOfficial"),
+                        InlineKeyboardButton("🌷 ʙᴏᴛᴢ ᴄʜᴀɴɴᴇʟ 🌷", url="https://t.me/Gishankrishka1_cloud")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ʙᴏᴛ ❣️", callback_data="aboutbot"),
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ᴅᴇᴠ ❣️", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/JoinOT).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/SLBotOfficial).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -402,7 +402,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/JoinOT).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/SLBotOfficial).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -414,12 +414,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("🌷 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🌷", url="https://t.me/SLBotOfficial"),
+                        InlineKeyboardButton("🌷 ʙᴏᴛᴢ ᴄʜᴀɴɴᴇʟ 🌷", url="https://t.me/Gishankrishka1_cloud")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ʙᴏᴛ ❣️", callback_data="aboutbot"),
+                        InlineKeyboardButton("❣️ ᴀʙᴏᴜᴛ ᴅᴇᴠ ❣️", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -447,8 +447,8 @@ async def button(bot: Client, cmd: CallbackQuery):
         await cmd.message.edit("File Saved in Batch!\n\n"
                                "Press below button to get batch link.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                    [InlineKeyboardButton("🌺 sᴀᴠᴇ ɪɴ ʙᴀᴛᴄʜ 🌺", callback_data="addToBatchTrue")],
+                                    [InlineKeyboardButton("🌺 ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ 🌺", callback_data="addToBatchFalse")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
